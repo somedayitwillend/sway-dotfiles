@@ -22,7 +22,3 @@ alias shutdown='sudo shutdown 0'
 
 eval "$(starship init bash)"
 
-# Spaceship customization
-
-SPACESHIP_PROMPT_ADD_NEWLINE=false
-SPACESHIP_PROMPT_SEPATARE_LINE=false
