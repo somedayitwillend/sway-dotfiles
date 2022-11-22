@@ -1,5 +1,5 @@
 # dotfiles
-## My config files for **arch** linux
+## My config files for *arch* linux
 > Clone the repo and change directory to dotfiles
 ```
 git clone https://github.com/somedayitwillend/dotfiles.git
