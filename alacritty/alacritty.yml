@@ -41,9 +41,7 @@ colors:
   # Default colors
   primary:
     background: "#11121D"
-    #foreground: "#a9b1d6"
-    foreground: "#e6e4bb" # cream
-    #foreground: "#c1bf95"
+    foreground: "#e6e4bb"
   
  
   # Colors the cursor will use if `custom_cursor_colors` is true
@@ -70,10 +68,6 @@ colors:
     yellow: "#ff9e64"
     blue: "#7da6ff"
     magenta: "#bb9af7"
-    #cyan: "#0db9d7"
-    #cyan: "#307020" # dark green
-    #cyan: "#326030" # dark green shaded
-    #cyan: "#3a7937"
     cyan: "#539450"
     white: "#acb0d0"
 
