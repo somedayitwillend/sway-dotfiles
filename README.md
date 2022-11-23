@@ -6,6 +6,12 @@ git clone https://github.com/somedayitwillend/dotfiles.git
 cd dotfiles
 ```
 
+> Before using my bashrc install the lsd package or remove aliases. *I would recommand installing lsd it makes a huge difference*
+```
+pacman -Syu --noconfirm
+pacman -S lsd
+```
+
 > Put the .bashrc in your /home/$user/ folder
 ```
 mv .bashrc ~/
