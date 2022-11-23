@@ -6,7 +6,7 @@
     // Choose the order of the modules
     "modules-left": ["sway/workspaces", "sway/mode", "custom/media"],
     "modules-center": ["sway/window"],
-    "modules-right": ["tray","pulseaudio", "network", "cpu", "memory", "temperature", "backlight", "battery", "battery#bat2", "clock"],
+    "modules-right": ["tray","pulseaudio", "network", "cpu", "memory", "temperature", "battery", "battery#bat2", "clock"],
     // Modules configuration
      "sway/workspaces": {
          "disable-scroll": true,
@@ -14,16 +14,8 @@
          "all-outputs": true,
          "format": "  {icon}  ",
          //"format":"{icon}",
-         //"format-icons": {
-         //    "1": "",
-         //    "2": "",
-         //    "3": "",
-         //    "10": "",
-         //    "4": "",
-         //    "5": "",
-         //    "focused": "",
-         //    "default": ""
-         //}
+         "format-icons": {
+         }
      },
     "sway/mode": {
         "format": "<span style=\"italic\">{}</span>"
@@ -39,10 +31,16 @@
         "icon-size": 21,
         "spacing": 10
     },
+
     "clock": {
-        "tooltip-format": "{:%Y-%m-%d | %H:%M}",
         "format-alt": "{:%Y-%m-%d}"
     },
+
+    //"clock": {
+    //    "tooltip-format": "{:%Y-%m-%d | %H:%M}",
+    //    "format-alt": "{:%Y-%m-%d}"
+    //},
+
     "cpu": {
         "format": "{usage}% "
     },
