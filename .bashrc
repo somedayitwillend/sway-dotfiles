@@ -16,9 +16,16 @@ neofetch
 
 # Aliases
 
+# lsd
 alias ls='lsd -Fl'
 alias la='lsd -Fla'
-alias shutdown='sudo shutdown 0'
+# sys
+alias shutdown='shutdown -h now'
 
+# starship
 eval "$(starship init bash)"
 
+# Spaceship customization
+
+SPACESHIP_PROMPT_ADD_NEWLINE=false
+SPACESHIP_PROMPT_SEPATARE_LINE=false
