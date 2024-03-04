@@ -1,4 +1,4 @@
-# dotfiles
+# old sway dotfiles
 ## My config files for *arch* linux
 > Clone the repo and change directory to dotfiles
 ```
